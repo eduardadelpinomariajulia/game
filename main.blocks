@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="qoncDJ5}QZ!$i/2.a^Eo" x="0" y="0"></block><block type="device_forever" id="Xl4{kUvyr!#-C4DB*Nwu" x="205" y="0"></block><block type="device_pin_event" id="Z_sT)fwvAP-}%MFM$U@*" x="309" y="103"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="device_show_leds" id="m%+i1C4!=8+3^9Tyrks*"><field name="LEDS">`
+        # # # . . 
+        # # # . . 
+        # . . . . 
+        # . . . . 
+        # . . . .
+        `</field></block></statement></block><block type="device_pin_event" id="-+;}BTef*4~7`3x%R_l-" x="588" y="91"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="device_show_leds" id="7IfVBz|#d75rj*c2F$S;"><field name="LEDS">`
+        . . # # # 
+        . . # # # 
+        . . . . # 
+        . . . . # 
+        . . . . #
+        `</field></block></statement></block><block type="device_pin_event" id="iaNm.{HhK]Fz1u:bkqD9" x="-9" y="150"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="device_print_message" id="4NIG4V1Kq$Z0L@cOwoAk"><value name="text"><shadow type="text" id="Qq3C9G_x4ie+P+`%#}3A"><field name="TEXT">vamos la!</field></shadow></value><next><block type="device_show_number" id="y;cz*c9s+E~@l!B@-`)u"><value name="number"><shadow type="math_number" id="l{s5+$qCvXqX^C4$PuMj"><field name="NUM">3</field></shadow></value><next><block type="device_show_number" id="}(XCIO%k:sAHeyBK]bq%"><value name="number"><shadow type="math_number" id="Rk{w)OW)YwR97aL9{^F9"><field name="NUM">2</field></shadow></value><next><block type="device_show_number" id="(N_*Xo*:k[i+A;t#.+kO"><value name="number"><shadow type="math_number" id="qLr+rwHCVyPi3Ie@]KG2"><field name="NUM">1</field></shadow></value><next><block type="device_clear_display" id="U.$rvmROS!N%$4ldO2Cq"><next><block type="device_pause" id="Zoms*_`.5znc0wB_`,-b"><value name="pause"><shadow type="timePicker"><field name="ms">100</field></shadow><block type="device_random" id="];pGInN8+-Po)Ol|`rk7"><value name="min"><shadow type="math_number" id="LK:fN+|07ZZZ!|8GTxVz"><field name="NUM">1000</field></shadow></value><value name="limit"><shadow type="math_number" id="$yQe5g2IQr$dwjf?D_7q"><field name="NUM">10000</field></shadow></value></block></value><next><block type="basic_show_icon" id="wZHlVJRL)r_/#QoNeH(/"><field name="i">IconNames.Heart</field></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
